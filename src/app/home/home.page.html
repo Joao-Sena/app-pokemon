@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>APP POKEMON</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p class="titulo">Pokemons - Clique em algum e veja suas informações</p>
+  
+  <div *ngFor="let pokemon of pokemons">
+
+      <div class="card ion-text-center">
+
+        <img [src]="pokemon.img" alt="">
+
+        <div class="ion-text-left">
+            <h3 class="nome-pokemon grass" *ngIf="pokemon.type[0] == 'Grass'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon fire" *ngIf="pokemon.type[0] == 'Fire'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon water" *ngIf="pokemon.type[0] == 'Water'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon bug" *ngIf="pokemon.type[0] == 'Bug'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon normal" *ngIf="pokemon.type[0] == 'Normal'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon poison" *ngIf="pokemon.type[0] == 'Poison'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon eletric" *ngIf="pokemon.type[0] == 'Electric'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon ground" *ngIf="pokemon.type[0] == 'Ground'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon fighting" *ngIf="pokemon.type[0] == 'Fighting'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon psychic" *ngIf="pokemon.type[0] == 'Psychic'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon rock" *ngIf="pokemon.type[0] == 'Rock'">NOME: {{ pokemon.name }} </h3>
+            <h3 class="nome-pokemon dragon" *ngIf="pokemon.type[0] == 'Dragon'">NOME: {{ pokemon.name }} </h3>
+
+            <h3 class="tipo-pokemon">TIPO: {{pokemon.type[0] }} </h3>
+            
+            <h3 class="altura-pokemon">ALTURA: {{ pokemon.height }} </h3>
+            
+            <h3 class="peso-pokemon">PESO: {{ pokemon.weight }} </h3>
+
+            <h3 class="peso-pokemon">CHANCE SPAWN: {{ pokemon.spawn_chance }} </h3>
+
+        </div>
+
+      </div>
+
+  </div>
+
+</ion-content>

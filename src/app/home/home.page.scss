@@ -1,0 +1,28 @@
+ion-header, ion-toolbar, ion-title{ --background: #00aeff; --color: #fff; }
+
+.titulo{ font-size: 14px; color: #696969; text-align: left; margin: 0; padding: 0px 0px 14px 0px; }
+
+.card{ background: #fafafa; border-radius: 8px; box-shadow: 0px 0px 10px 0px #74747425; padding: 14px; margin-bottom: 18px; }
+
+.nome-pokemon{ color: #fff; display: block; font-weight: bold; border-radius: 20px; padding: 6px; text-align: center; }
+
+.tipo-pokemon{ font-size: 18px; color: #3b3b3b; }
+
+.altura-pokemon{ font-size: 16px; color: #616161; }
+
+.peso-pokemon{ font-size: 16px; color: #636363; }
+
+// cores
+
+.grass{ background: #16d686 }
+.fire{ background: #e64f63 }
+.water{ background: #00c3ff }
+.bug{ background: #48ff00 }
+.normal{ background: #d3bd5e }
+.poison{ background: #ae00ff }
+.eletric{ background: #ffd000 }
+.ground{ background: #774000 }
+.fighting{ background: #292929  }
+.psychic{ background: #f700ff }
+.rock{ background: #575757 }
+.dragon { background: #ff8800 }

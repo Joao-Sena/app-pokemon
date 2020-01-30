@@ -22,6 +22,6 @@ filtragem ou coisa do tipo.
 # Resultado Final
 
 <span>
-  <img src="" width="40%">
-  <img src="" width="40%">
+  <img src="https://raw.githubusercontent.com/Joao-Sena/app-pokemon/master/src/assets/print-1.png" width="40%">
+  <img src="https://raw.githubusercontent.com/Joao-Sena/app-pokemon/master/src/assets/print-2.png" width="40%">
 </span>
